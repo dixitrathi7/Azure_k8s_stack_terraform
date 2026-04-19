@@ -1,5 +1,7 @@
 # Azure Kubernetes Stack with Terraform
 
+![Azure K8s Stack Architecture](Architecture_Diagram.jpg)
+
 This repository contains Terraform code to provision a complete Azure infrastructure stack, including networking, storage, Kubernetes (AKS), Application Gateway, and CDN, following modular best practices. The code is organized for easy customization and reuse.
 
 ## Features
