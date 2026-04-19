@@ -9,8 +9,7 @@ This repository contains Terraform code to provision a complete Azure infrastruc
 - **Kubernetes (AKS)**: Production-ready Private AKS k8s cluster with managed identities and RBAC
 - **Azure CDN/Front Door**: Global content delivery integration with static website hosting and Application Gateway
 - **Key Vault & Monitoring**: Secure secrets management with AKS k8s cluster with private connectivity and monitoring (extendable)
-- **Modular Structure**: Each major component is a separate Terraform module for clarity and reuse if you want to use this Module just need to cheange into terrafrom.tfvar file then whole infra is created with your requrimentes
-
+- **Modular Structure**: Each major component is a separate Terraform module for clarity and reuse. To use this module for your requirements, simply update the `terraform.tfvars` file and the entire infrastructure will be created as per your needs.
 ## Directory Structure
 - `main.tf` – Root module wiring all submodules together
 - `provider.tf` – Azure provider configuration
