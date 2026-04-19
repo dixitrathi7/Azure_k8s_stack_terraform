@@ -32,7 +32,7 @@ This repository contains Terraform code to provision a complete Azure infrastruc
 ## Usage
 1. **Clone the repository**
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/dixitrathi7/Azure_k8s_stack_terraform
    cd Azure_k8s_stack_terraform
    ```
 2. **Configure backend**
